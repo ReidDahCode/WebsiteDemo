@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StoryBoard Page</title>
+        <link rel="stylesheet" href="navbar.css">
+        <style>
+            @keyframes fadeUp {
+                0% {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            h2, p, a {
+                text-align: center;
+                animation: fadeUp 1s ease-out;
+            }
+
+            h2 {
+                font-size: 3em;
+                border: 2px solid #000;
+                padding: 20px;
+                border-radius: 10px;
+                display: inline-block;
+                margin: 20px auto;
+            }
+
+            section {
+                border: 2px solid #000;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 10px;
+            }
+
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .container {
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Assets/logo.png" alt="MyLogo"/>
+            </div>
+             <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="personality.html">Personality</a></li>
+                <li><a href="professional.html">Professional</a></li>
+                <li><a href="personaldevelopment.html">Personal Development</a></li>
+                <li><a href="storyBoard.html">StoryBoard</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+        <section class="center">
+            <h2>Welcome to my StoryBoard</h2>
+            <p><a href="Assets/storyboardReid.pdf">See my storyboard!</a></p>
+        </section>
+        <footer>
+            <div class="container">
+                Contact me
+            </div>
+        </footer>
+    </body>
+</html>
